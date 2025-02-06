@@ -1,10 +1,10 @@
 'use strict'
 
 const discliplinas = [
-    {nome: 'PPDM', icon: 'instagram.png'},
-    {nome: 'PRO',  icon:  'web.png'},
-    {nome: 'PWBE', icon:  'ios.png'},
-    {nome: 'PWFE', icon: 'whatsapp.png'}
+    {nome: 'PPDM', icon: 'instagram.png', cor: 'orange'},
+    {nome: 'PRO',  icon:  'web.png',  cor: 'salmon'},
+    {nome: 'PWBE', icon:  'ios.png',  cor: 'pink'},
+    {nome: 'PWFE', icon: 'whatsapp.png',  cor: 'plum'}
     
 ]
 
@@ -20,7 +20,7 @@ function criarMenu(discliplina) {
 
     novoItem.appendChild(novaImagem)
     novoItem.appendChild(novoSpan)
-
+    novoItem.style = `--cor-hover:${discliplina.cor}`
     lista.appendChild(novoItem)
 }
 
