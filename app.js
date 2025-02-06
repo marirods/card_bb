@@ -1,10 +1,10 @@
 'use strict'
 
 const discliplinas = [
-    {nome: 'PPDM', icon: 'instagram.png', cor: 'orange'},
-    {nome: 'PRO',  icon:  'web.png',  cor: 'salmon'},
-    {nome: 'PWBE', icon:  'ios.png',  cor: 'pink'},
-    {nome: 'PWFE', icon: 'whatsapp.png',  cor: 'plum'}
+    {nome: 'PPDM', icon: 'banco.png.png', cor: 'orange'},
+    {nome: 'PRO',  icon:  'projetos.png.png',  cor: 'salmon'},
+    {nome: 'PWBE', icon:  'back.png.png',  cor: 'pink'},
+    {nome: 'PWFE', icon: 'front.png.png',  cor: 'plum'}
     
 ]
 
@@ -26,4 +26,3 @@ function criarMenu(discliplina) {
 
 
 discliplinas.forEach(criarMenu)
-
