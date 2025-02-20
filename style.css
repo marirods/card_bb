@@ -26,7 +26,7 @@ a{
     justify-content: end;
     gap: 16px;
     background-color:white;
-    color: rgb(0, 0, 0);
+    color: #000000;
     padding: 16px;
 }
 
@@ -99,7 +99,7 @@ main {
     
 }
 
-.nomeMake h1{
+.nomeMakeh1{
     font-size: 30px;
     text-align: center;
 }
@@ -121,4 +121,10 @@ main {
     cursor: pointer;
     align-items: center;
     
+}
+.pb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
