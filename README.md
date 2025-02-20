@@ -2,7 +2,8 @@
 # card_bb
 
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/e6ce0ed6-3d47-410f-a6f2-46e844f9247c)
+
 
 ---
 
