@@ -110,7 +110,7 @@ main {
 }
 .botao{
     display: block;
-    padding: 15px 30px;
+    padding: 8px 12px;
     width: 90%;
     border: black;
     outline: none;

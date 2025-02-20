@@ -50,7 +50,7 @@ function criarCard(maquiagem){
 
     //estrutura card
     const makediv = document.createElement('div')
-    makediv.classList.add('Card')
+    makediv.classList.add('cardInfo')
 
     // imagem da make
     const imagemMake = document.createElement('img')
@@ -59,6 +59,7 @@ function criarCard(maquiagem){
 
     //div interna
     const maquiagemDiv = document.createElement('div')
+    maquiagemDiv.classList.add('informacoes')
 
     //nome da maquiagem
     const nomeMake = document.createElement('h1')
@@ -70,7 +71,7 @@ function criarCard(maquiagem){
 
     //botao 
     const botao = document.createElement('button')
-    botao.classList.add('botaoclique')
+    botao.classList.add('botao')
     botao.textContent = 'COMPRE AGORA'
 
    //nome e descricao na div interna
